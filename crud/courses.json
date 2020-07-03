@@ -1,0 +1,33 @@
+[
+  {
+    "courses_id": "1",
+    "courses": "python",
+    "exercise": "operatorss",
+    "exercise_id": 1
+  },
+  {
+    "courses_id": "2",
+    "courses": "html",
+    "exercise": "constant",
+    "exercise_id": 2
+  },
+  null,
+  {
+    "courses_id": "3",
+    "courses": "Nodejs",
+    "exercise": "hangman",
+    "exercise_id": 4
+  },
+  {
+    "courses_id": "4",
+    "courses": "webscraping",
+    "exercise": "tasks",
+    "exercise_id": 5
+  },
+  {
+    "courses_id": "find_out",
+    "courses": "request",
+    "exercise": "11",
+    "exercise_id": 6
+  }
+]

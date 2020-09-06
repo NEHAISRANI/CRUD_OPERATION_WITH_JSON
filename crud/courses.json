@@ -6,13 +6,6 @@
     "exercise_id": 1
   },
   {
-    "courses_id": "2",
-    "courses": "html",
-    "exercise": "constant",
-    "exercise_id": 2
-  },
-  null,
-  {
     "courses_id": "3",
     "courses": "Nodejs",
     "exercise": "hangman",

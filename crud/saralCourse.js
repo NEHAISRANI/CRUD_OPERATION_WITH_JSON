@@ -61,6 +61,7 @@ app.get("/get",(req,res)=>{
         for(var i = 0; i < Data.length ; i++){
             if(Data[i]["exercise_id"]==id){
                 delete(Data[i])
+                console.log("yes")
             }
         }
         fs.writeFileSync("courses.json",JSON.stringify(Data,null,2));

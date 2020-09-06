@@ -11,13 +11,14 @@ const fs = require("fs");
 // configure our express instance with some body-parser settings
 // including handling JSON data
 app.use(bodyParser.json()); 
-// app.use(bodyParser.urlencoded({ extended: true }));
-
+// app.use(bodyParser.urlencoded({ extended: true })); 
 // this is where we'll handle our various routes from
 require("./route/user_api.js")(app, fs);   
 
-// finally, launch our server on port 3001.
+// finally, launch our server on port 3005.
 const server = app.listen(3005, function(){     
-  var port= server.address().port
   console.log("listening on port %s...", server.address().port);
 }); 
+
+
+
